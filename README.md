@@ -1,9 +1,91 @@
-# 💫 About Me:
-🌱 I’m currently learning: Large Language Models (LLMs) and advanced NLP techniques.<br><br>🔭 I’m looking to collaborate on: Open-source Data Science projects or AI-driven web applications.<br><br>💼 I previously interned at: EL-Sewedy Electric as an R&D Software Development Intern.
+# Mohamed Badra
 
+Computer Engineering (dual degree) — Ain Shams University & University of East London, graduating 2027.
+I work on applied machine learning and LLM systems, mostly where messy real-world text meets structured data.
 
-## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/mwbadra) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:MohamedWBadra@gmail.com) 
+[Writing](https://mwbadra.github.io/) · [LinkedIn](https://linkedin.com/in/mwbadra) · [MohamedWBadra@gmail.com](mailto:MohamedWBadra@gmail.com)
 
-# 💻 Tech Stack:
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![Dart](https://img.shields.io/badge/dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white) ![JavaFX](https://img.shields.io/badge/javafx-%23FF0000.svg?style=for-the-badge&logo=javafx&logoColor=white) ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi&logoColor=white) ![LangChain](https://img.shields.io/badge/langchain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white) ![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge) ![Gradio](https://img.shields.io/badge/gradio-FF7C00?style=for-the-badge&logo=gradio&logoColor=white) ![MicrosoftSQLServer](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![Mongoose](https://img.shields.io/badge/Mongoose-880000?style=for-the-badge&logo=mongoose&logoColor=white) ![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-FFD21E?style=for-the-badge&logoColor=black) ![LangSmith](https://img.shields.io/badge/LangSmith-000000?style=for-the-badge) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white) ![Swagger](https://img.shields.io/badge/-Swagger-%23Clojure?style=for-the-badge&logo=swagger&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white)
+---
+
+### Research
+
+**[Quote-grounded lineup prediction](https://github.com/MWBadra/quote-grounded-lineup-prediction)**
+Predicting Premier League starting elevens by fusing tabular match data with signals a language model
+extracts from pre-match reporting — where every extracted claim must cite a verbatim span verified
+against the retrieved text in code. Solo-authored paper, full dataset and pipeline released.
+
+The result I'd point you to: prompted with no sources at all, the model still reaches ROC-AUC 0.654
+on 68.4% of player-matches. On the cases where both conditions speak, that unaided recall falls to
+0.513 while the grounded signal holds at 0.713, and the two agree only 34.1% of the time. Any study
+applying a language model to a period inside its training window owes the reader that measurement.
+
+→ [Full write-up](https://mwbadra.github.io/posts/lineup-prediction-contamination.html)
+
+---
+
+### Selected projects
+
+**[Distributed LLM serving system](https://github.com/3omar146/Distributed-LLM-Serving-System)** — 5-tier
+architecture (NGINX, FastAPI masters/workers, remote A100s) handling 1,000 concurrent requests at 100%
+success under burst load, with two-tier load balancing and no client-visible failures during deliberate
+GPU termination.
+
+**[Classifiers from scratch](https://github.com/eslamfawzy72/Image-classification-ML-Project)** — six ML
+models (KNN, naive Bayes, multinomial regression, decision tree, linear SVM, random forest) implemented
+in NumPy alone, with PCA and HOG feature pipelines. 97.5% macro-F1 on MNIST.
+
+**[Agent and RAG work](https://github.com/MWBadra/Cellula)** — LangChain ReAct agents, a LangGraph
+state-machine developer assistant, and a multimodal toxicity classifier. Built during an NLP engineering
+internship at Cellula Technologies.
+
+---
+
+### Tools
+
+Python (pandas, NumPy, scikit-learn, XGBoost, SciPy) · LangChain / LangGraph · FastAPI · Docker · FAISS ·
+SQL · Java / Spring Boot · C/C++ · React · Flutter# Mohamed Badra
+
+Computer Engineering (dual degree) — Ain Shams University & University of East London, graduating 2027.
+I work on applied machine learning and LLM systems, mostly where messy real-world text meets structured data.
+
+[Writing](https://mwbadra.github.io/) · [LinkedIn](https://linkedin.com/in/mwbadra) · [MohamedWBadra@gmail.com](mailto:MohamedWBadra@gmail.com)
+
+---
+
+### Research
+
+**[Quote-grounded lineup prediction](https://github.com/MWBadra/quote-grounded-lineup-prediction)**
+Predicting Premier League starting elevens by fusing tabular match data with signals a language model
+extracts from pre-match reporting — where every extracted claim must cite a verbatim span verified
+against the retrieved text in code. Solo-authored paper, full dataset and pipeline released.
+
+The result I'd point you to: prompted with no sources at all, the model still reaches ROC-AUC 0.654
+on 68.4% of player-matches. On the cases where both conditions speak, that unaided recall falls to
+0.513 while the grounded signal holds at 0.713, and the two agree only 34.1% of the time. Any study
+applying a language model to a period inside its training window owes the reader that measurement.
+
+→ [Full write-up](https://mwbadra.github.io/posts/lineup-prediction-contamination.html)
+
+---
+
+### Selected projects
+
+**[Distributed LLM serving system](https://github.com/3omar146/Distributed-LLM-Serving-System)** — 5-tier
+architecture (NGINX, FastAPI masters/workers, remote A100s) handling 1,000 concurrent requests at 100%
+success under burst load, with two-tier load balancing and no client-visible failures during deliberate
+GPU termination.
+
+**[Classifiers from scratch](https://github.com/eslamfawzy72/Image-classification-ML-Project)** — six ML
+models (KNN, naive Bayes, multinomial regression, decision tree, linear SVM, random forest) implemented
+in NumPy alone, with PCA and HOG feature pipelines. 97.5% macro-F1 on MNIST.
+
+**[Agent and RAG work](https://github.com/MWBadra/Cellula)** — LangChain ReAct agents, a LangGraph
+state-machine developer assistant, and a multimodal toxicity classifier. Built during an NLP engineering
+internship at Cellula Technologies.
+
+---
+
+### Tools
+
+Python (pandas, NumPy, scikit-learn, XGBoost, SciPy) · LangChain / LangGraph · FastAPI · Docker · FAISS ·
+SQL · Java / Spring Boot · C/C++ · React · Flutter
